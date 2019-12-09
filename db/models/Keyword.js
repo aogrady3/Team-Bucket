@@ -1,8 +1,8 @@
 const Sequelize = require('sequelize')
 const db = require('../db')
 
-const Bucket = db.define('bucket', {
+const Keyword = db.define('keyword', {
     name: Sequelize.STRING
 })
 
-module.exports = Bucket
+module.exports = Keyword
