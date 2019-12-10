@@ -3,7 +3,7 @@ var path = require('path');
 var { db } = require('./db')
 
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+var bucket = require('./routes/bucket');
 
 var app = express();
 
@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
+app.use('/bucket', bucket);
 
 //Connect our DB!
 const syncDb = () =>  db.sync({force: true})
