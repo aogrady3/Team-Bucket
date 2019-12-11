@@ -15,7 +15,7 @@ Built for final project for Fordham Univeristy Master Program (Software Engineer
 
 ## Screenshots
 
-Sample Output from API Call to Localhost/3000/:ItemID
+Sample Output from API Call to `http://localhost:3000/bucket/:ItemId`
 <img width="576" alt="Screen Shot 2019-12-10 at 10 37 58 PM" src="https://user-images.githubusercontent.com/36509646/70589697-5d296c80-1b9e-11ea-860a-b6b5295163df.png">
 
 ## Instructions
